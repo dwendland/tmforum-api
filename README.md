@@ -11,6 +11,8 @@ There are currently two supporting modules:
 The api-implementations are inside modules, producing jar-files and oci-containers according to the definitions in the [parent-pom](pom.xml). 
 Current api-implementations:
 - [party-management-api](party) - implementation of the party-management-api
+- [customer-management-api](customer) - implementation of the customer-management-api
+- [customer-bill-management-api](customer-bill) - implementation of the customer-bill-management-api
 
 The project also contains 2 non-module folders:
 - [api](api) - contains the [OpenApi-Specifications](https://spec.openapis.org/oas/v3.1.0) used by the project. Beside the TMForum-Apis it also contains the specification of the NGSI-LD API.
